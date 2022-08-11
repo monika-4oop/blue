@@ -1,0 +1,86 @@
+
+
+
+.card {
+    width: 300px;
+    max-width: 300px;
+    padding: 1rem;
+    box-shadow: rgba(131, 129, 129, 0.25) 0px 14px 28px,
+      rgba(163, 160, 160, 0.22) 0px 0px 10px;
+    border-radius: 0.5rem;
+    margin-left: 36%;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content:center;
+  }
+  
+  .type {
+    background: green;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .address {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .main__details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .main__details img {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacts > #btn {
+    color: rgb(47, 44, 207);
+    border: 1px solid rgb(47, 44, 207);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-size: 12px;
+  }
+  
+  .contacts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .common {
+    font-size: 12px;
+  }
+  
+  .div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .div input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid rgb(6, 48, 82);
+    border-radius: 0.5rem;
+  }
+  
